@@ -16,8 +16,7 @@ class Profile extends StatelessWidget {
               SizedBox(height: 50),
               CircleAvatar(
                 backgroundColor: Colors.blue,
-                radius: 50,
-                child: Icon(Icons.person, color: Colors.black, size: 50),
+                radius: 50, backgroundImage: AssetImage("assets/img.png")
               ),SizedBox(height: 30,),
               Text(
                 "ADHI KRISHNA",

@@ -67,7 +67,7 @@ class Profile extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  child: Row(children: [Icon(Icons.email),Text("     adhi62103@gmail.com")]),
+                  child: Row(children: [Icon(Icons.email),SizedBox(width: 10,) ,  Text("adhi62103@gmail.com")]),
                 ),
               ),
             ],
